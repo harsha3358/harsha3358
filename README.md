@@ -2,6 +2,7 @@
 - 👀 I’m interested in coding ...:)
 - 🌱 I’m currently learning about ARTIFICIAL INTELLIGIANEC AND DATA ENGINEERING...:)
 - 💞️ I’m looking to collaborate on big and future good ...:)
+  
 -⚡ Fun fact: I once built a chatbot that can tell jokes better than most of my friends...:)
 
 
