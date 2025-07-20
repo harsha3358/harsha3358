@@ -1,52 +1,51 @@
-import tkinter as tk
-from tkinter import ttk
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Harsha's Portfolio</title>
+</head>
+<body style="font-family: Arial, sans-serif; background: #f4f4f9; margin: 0; padding: 20px; color: #333;">
 
-root = tk.Tk()
-root.title("Harsha's Portfolio")
-root.geometry("600x600")
-root.configure(bg="#f4f4f9")
+  <h1 style="font-size: 2em;">👋 Hi, I’m Harsha</h1>
+  <p>AI & Data Engineering | B.Tech</p>
+  <p>
+    <a href="https://www.linkedin.com/in/harshavardhan-reddy-n-268176285/" style="color:#0077b5; text-decoration:none;">LinkedIn</a> · 
+    harshavardhan414212@gmail.com
+  </p>
 
-title = tk.Label(root, text="👋 Hi, I’m Harsha", font=("Arial", 20), bg="#f4f4f9")
-title.pack(pady=(10, 5))
+  <h2 style="margin-top: 30px; color: #d35400;">🔥 Projects</h2>
+  <table style="width:100%; border-collapse:collapse; margin-top:10px;">
+    <tr>
+      <th style="text-align:left; padding:10px; border-bottom:1px solid #ccc;">Project</th>
+      <th style="text-align:left; padding:10px; border-bottom:1px solid #ccc;">What?</th>
+    </tr>
+    <tr>
+      <td style="padding:10px; border-bottom:1px solid #ccc;"><strong>LaughBot</strong></td>
+      <td style="padding:10px; border-bottom:1px solid #ccc;">Witty, learning chatbot</td>
+    </tr>
+    <tr>
+      <td style="padding:10px; border-bottom:1px solid #ccc;"><strong>Smart Recommender</strong></td>
+      <td style="padding:10px; border-bottom:1px solid #ccc;">ML-powered suggestions</td>
+    </tr>
+    <tr>
+      <td style="padding:10px; border-bottom:1px solid #ccc;"><strong>DataViz Stories</strong></td>
+      <td style="padding:10px; border-bottom:1px solid #ccc;">Visual, interactive data</td>
+    </tr>
+    <tr>
+      <td style="padding:10px; border-bottom:1px solid #ccc;"><strong>Generative Playground</strong></td>
+      <td style="padding:10px; border-bottom:1px solid #ccc;">Creative AI experiments</td>
+    </tr>
+  </table>
 
-subtitle = tk.Label(root, text="AI & Data Engineering | B.Tech", font=("Arial", 12), bg="#f4f4f9")
-subtitle.pack()
+  <h2 style="margin-top: 30px; color: #d35400;">🛠️ Toolbox</h2>
+  <p>Python · Java · HTML5 · CSS3</p>
+  <p>Scikit-learn · OpenAI · MySQL · Power BI · Hadoop · Linux · Git</p>
 
-link = tk.Label(root, text="LinkedIn", font=("Arial", 12), fg="#0077b5", bg="#f4f4f9", cursor="hand2")
-link.pack()
-link.bind("<Button-1>", lambda e: root.clipboard_append("https://www.linkedin.com/in/harshavardhan-reddy-n-268176285/"))
+  <h2 style="margin-top: 30px; color: #d35400;">🌟 Join In!</h2>
+  <ul>
+    <li>⭐ Star projects</li>
+    <li>💬 Collaborate or suggest</li>
+    <li>Let’s make ideas happen!</li>
+  </ul>
 
-email = tk.Label(root, text="harshavardhan414212@gmail.com", font=("Arial", 12), bg="#f4f4f9")
-email.pack()
-
-projects_label = tk.Label(root, text="🔥 Projects", font=("Arial", 16), fg="#d35400", bg="#f4f4f9")
-projects_label.pack(pady=(20, 5))
-
-projects = [
-    ("LaughBot", "Witty, learning chatbot"),
-    ("Smart Recommender", "ML-powered suggestions"),
-    ("DataViz Stories", "Visual, interactive data"),
-    ("Generative Playground", "Creative AI experiments")
-]
-
-for name, desc in projects:
-    proj = tk.Label(root, text=f"{name} – {desc}", font=("Arial", 12), bg="#f4f4f9", anchor="w")
-    proj.pack(fill='x', padx=20)
-
-toolbox_label = tk.Label(root, text="🛠️ Toolbox", font=("Arial", 16), fg="#d35400", bg="#f4f4f9")
-toolbox_label.pack(pady=(20, 5))
-
-tools1 = tk.Label(root, text="Python · Java · HTML5 · CSS3", font=("Arial", 12), bg="#f4f4f9")
-tools1.pack()
-tools2 = tk.Label(root, text="Scikit-learn · OpenAI · MySQL · Power BI · Hadoop · Linux · Git", font=("Arial", 12), bg="#f4f4f9")
-tools2.pack()
-
-join_label = tk.Label(root, text="🌟 Join In!", font=("Arial", 16), fg="#d35400", bg="#f4f4f9")
-join_label.pack(pady=(20, 5))
-
-join_list = ["⭐ Star projects", "💬 Collaborate or suggest", "Let’s make ideas happen!"]
-for item in join_list:
-    line = tk.Label(root, text=item, font=("Arial", 12), bg="#f4f4f9", anchor="w")
-    line.pack(fill='x', padx=20)
-
-root.mainloop()
+</body>
+</html>
