@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Harsha's Portfolio</title>
-</head>
+
 <body style="font-family: Arial, sans-serif; background: #f4f4f9; margin: 0; padding: 20px; color: #333;">
 
   <h1 style="font-size: 2em;">👋 Hi, I’m Harsha</h1>
