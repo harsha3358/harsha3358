@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Animated Wave Header with Gradient -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Harshavardhan%20Reddy&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Harshavardhan%20Reddy&fontSize=42&fontColor=fff&animation[...] />
 
 <h3>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=AI+%2F+Data+Engineering+Specialist;UI+Developer+%26+Innovator;Problem+Solver+%7C+Creative+Technologist;Microsoft+Certified+Azure+Expert" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=AI+%2F+Data+Engineering+Specialist;UI+Developer+%26+Innovator;Proble[...]
 </h3>
 
 <!-- Social Badges with Animated Hover -->
@@ -19,7 +19,7 @@
 
 ---
 
-## 🚀 **About Me**
+##  **Know mw here :)**
 
 ```python
 class HarshavardhanaReddy:
@@ -134,7 +134,7 @@ Interactive business intelligence dashboards
 ## 📊 **GitHub Analytics**
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=harsha3358&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=harsha3358&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"[...]
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=harsha3358&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
 </div>
 
@@ -185,7 +185,12 @@ Open to: Freelance Projects | Collaborations | Innovative AI/Data Roles
 
 💡 **Currently seeking**: Exciting opportunities in AI Engineering, Data Science, and Full-Stack Development
 
-🚀 **Let's build something amazing together!**
+ **Let's build something amazing together!**
+
+<br>
+
+<!-- GitHub Contribution Snake Animation -->
+![GitHub Contribution Snake](https://github.com/harsha3358/harsha3358/blob/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
@@ -197,7 +202,5 @@ Open to: Freelance Projects | Collaborations | Innovative AI/Data Roles
 <div align="center">
   
 ### ⭐ Show some love by starring repositories you find interesting!
-
-![Snake animation](https://github.com/harsha3358/harsha3358/blob/output/github-contribution-grid-snake-dark.svg)
 
 </div>
