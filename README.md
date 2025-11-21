@@ -189,17 +189,21 @@ Open to: Freelance Projects | Collaborations | Innovative AI/Data Roles
 <br>
 
 <!-- GitHub Contribution Snake Animation -->
-![GitHub Contribution Snake](https://github.com/harsha3358/harsha3358/blob/output/github-contribution-grid-snake-dark.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harsha3358/harsha3358/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harsha3358/harsha3358/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/harsha3358/harsha3358/output/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
 
 ---
 
-<!-- Animated Wave Footer -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
 
 <div align="center">
   
 ### ⭐ Show some love by starring repositories you find interesting!
+<!-- Animated Wave Footer -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
 
 </div>
