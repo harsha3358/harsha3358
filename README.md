@@ -18,7 +18,7 @@
 
 ---
 
-##  **Know mw here :)**
+##  **Know me here :)**
 
 ```python
 class HarshavardhanaReddy:
@@ -153,9 +153,9 @@ Interactive business intelligence dashboards
 
 | Certification | Issuer | Year |
 |--------------|--------|------|
-| 🎖️ **Microsoft Certified: Azure Data Fundamentals** | Microsoft | 2024 |
-| 🎖️ **Software Engineering Implementation & Testing** | Coursera | 2024 |
 | 🎯 **Data Analysis & Visualization** | Industry Project | 2025 |
+| 🎖️ **Software Engineering Implementation & Testing** | Coursera | 2024 |
+| 🎖️ **Microsoft Certified: Azure Data Fundamentals** | Microsoft | 2024 |
 
 </div>
 
