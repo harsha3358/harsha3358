@@ -1,0 +1,17 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: Platane/snk@master
+        with:
+          github_user_name: harsha3358
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
