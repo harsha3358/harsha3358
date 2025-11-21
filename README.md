@@ -1,8 +1,7 @@
 <div align="center">
 
 <!-- Animated Wave Header with Gradient -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Harshavardhan%20Reddy&fontSize=42&fontColor=fff&animation[...] />
-
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Harshavardhan%20Reddy&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 <h3>
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=AI+%2F+Data+Engineering+Specialist;UI+Developer+%26+Innovator;Proble[...]
 </h3>
