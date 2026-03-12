@@ -1,17 +1,31 @@
+
 <div align="center">
 
 <!-- Animated Wave Header with Gradient -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Harshavardhan%20Reddy&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 <h3>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=AI+%2F+Data+Engineering+Specialist;UI+Developer+%26+Innovator;Proble[...]
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=AI+%2F+Data+Engineering+Specialist;UI+Developer+%26+Innovator;Proble[...]
 </h3>
 
 <!-- Social Badges with Animated Hover -->
 <p>
-  <a href="https://www.linkedin.com/in/harshavardhan-reddy-n-268176285"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
-  <a href="mailto:harshavardhan414212@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=Gmail&logoColor=white"/></a>
-  <a href="https://github.com/harsha3358"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=harsha3358&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile views" />
+<a href="https://www.linkedin.com/in/harsha3358" target="_blank" rel="noopener noreferrer">
+<img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:harshavardhan414212@gmail.com" target="_blank" rel="noopener noreferrer">
+<img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=Gmail&logoColor=white"/>
+</a>
+
+<a href="https://github.com/harsha3358" target="_blank" rel="noopener noreferrer">
+<img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/>
+</a>
+
+<a href="https://leetcode.com/u/Harsha3358/" target="_blank" rel="noopener noreferrer">
+<img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"/>
+</a>
+
+<img src="https://komarev.com/ghpvc/?username=harsha3358&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile views" />
 </p>
 
 </div>
