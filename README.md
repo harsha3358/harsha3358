@@ -4,13 +4,13 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Harshavardhan%20Reddy&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 
 <h3>
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=AI+%2F+Data+Engineering+Specialist;UI+Developer+%26+Innovator;Proble[...]
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=AI+%2F+Data+Engineering+Specialist;UI+Developer+%26+Innovator" />
 </h3>
 
 <!-- Social Badges with Animated Hover -->
 <p>
 
-<a href="https://www.linkedin.com/in/harsha3358">
+<a href="https://www.linkedin.com/in/harsha3358/">
 <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/>
 </a>
 
