@@ -1,0 +1,33 @@
+name: Update stats card
+
+on:
+  schedule:
+    - cron: "30 2 * * *"   # once a day
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Draw assets/stats.svg
+        env:
+          # Add a STATS_TOKEN secret (a token that can read your private repos) to count them too
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          INCLUDE_PRIVATE: ${{ secrets.STATS_TOKEN != '' && '1' || '0' }}
+        run: python scripts/stats.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg
+          git diff --cached --quiet || (git commit -m "Update stats card" && git push)

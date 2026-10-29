@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Thanks for stopping by.">
+<title>Thanks for stopping by.</title>
+<style>
+  .sans { font-family: 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'SF Mono', Menlo, monospace; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+  .w { animation: w linear infinite; }
+  @keyframes w { from { transform: translateX(0); } to { transform: translateX(-1200px); } }
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#060A13"/><stop offset="1" stop-color="#0B1222"/>
+  </linearGradient>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22D3EE"/><stop offset="0.5" stop-color="#818CF8"/><stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <linearGradient id="brandShift" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#22D3EE"/><stop offset="0.35" stop-color="#818CF8"/>
+    <stop offset="0.65" stop-color="#A78BFA"/><stop offset="1" stop-color="#22D3EE"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0; 0 0" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#1E293B" stroke-width="1" opacity="0.55"/>
+  </pattern>
+  <clipPath id="round"><rect width="1200" height="150" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#round)">
+  <rect width="1200" height="150" fill="url(#bg)"/>
+  <rect width="1200" height="150" fill="url(#grid)"/>
+  
+  <path d="M0 90 L0 90.0 L20 92.9 L40 95.7 L60 98.2 L80 100.4 L100 102.1 L120 103.3 L140 103.9 L160 103.9 L180 103.3 L200 102.1 L220 100.4 L240 98.2 L260 95.7 L280 92.9 L300 90.0 L320 87.1 L340 84.3 L360 81.8 L380 79.6 L400 77.9 L420 76.7 L440 76.1 L460 76.1 L480 76.7 L500 77.9 L520 79.6 L540 81.8 L560 84.3 L580 87.1 L600 90.0 L620 92.9 L640 95.7 L660 98.2 L680 100.4 L700 102.1 L720 103.3 L740 103.9 L760 103.9 L780 103.3 L800 102.1 L820 100.4 L840 98.2 L860 95.7 L880 92.9 L900 90.0 L920 87.1 L940 84.3 L960 81.8 L980 79.6 L1000 77.9 L1020 76.7 L1040 76.1 L1060 76.1 L1080 76.7 L1100 77.9 L1120 79.6 L1140 81.8 L1160 84.3 L1180 87.1 L1200 90.0 L1220 92.9 L1240 95.7 L1260 98.2 L1280 100.4 L1300 102.1 L1320 103.3 L1340 103.9 L1360 103.9 L1380 103.3 L1400 102.1 L1420 100.4 L1440 98.2 L1460 95.7 L1480 92.9 L1500 90.0 L1520 87.1 L1540 84.3 L1560 81.8 L1580 79.6 L1600 77.9 L1620 76.7 L1640 76.1 L1660 76.1 L1680 76.7 L1700 77.9 L1720 79.6 L1740 81.8 L1760 84.3 L1780 87.1 L1800 90.0 L1820 92.9 L1840 95.7 L1860 98.2 L1880 100.4 L1900 102.1 L1920 103.3 L1940 103.9 L1960 103.9 L1980 103.3 L2000 102.1 L2020 100.4 L2040 98.2 L2060 95.7 L2080 92.9 L2100 90.0 L2120 87.1 L2140 84.3 L2160 81.8 L2180 79.6 L2200 77.9 L2220 76.7 L2240 76.1 L2260 76.1 L2280 76.7 L2300 77.9 L2320 79.6 L2340 81.8 L2360 84.3 L2380 87.1 L2400 90.0" fill="none" stroke="#22D3EE" stroke-width="2" opacity="0.55" class="w" style="animation-duration:9s"/><path d="M0 90 L0 105.1 L20 106.8 L40 107.8 L60 108.0 L80 107.4 L100 106.0 L120 103.9 L140 101.3 L160 98.1 L180 94.6 L200 90.8 L220 87.1 L240 83.5 L260 80.1 L280 77.2 L300 74.9 L320 73.2 L340 72.2 L360 72.0 L380 72.6 L400 74.0 L420 76.1 L440 78.7 L460 81.9 L480 85.4 L500 89.2 L520 92.9 L540 96.5 L560 99.9 L580 102.8 L600 105.1 L620 106.8 L640 107.8 L660 108.0 L680 107.4 L700 106.0 L720 103.9 L740 101.3 L760 98.1 L780 94.6 L800 90.8 L820 87.1 L840 83.5 L860 80.1 L880 77.2 L900 74.9 L920 73.2 L940 72.2 L960 72.0 L980 72.6 L1000 74.0 L1020 76.1 L1040 78.7 L1060 81.9 L1080 85.4 L1100 89.2 L1120 92.9 L1140 96.5 L1160 99.9 L1180 102.8 L1200 105.1 L1220 106.8 L1240 107.8 L1260 108.0 L1280 107.4 L1300 106.0 L1320 103.9 L1340 101.3 L1360 98.1 L1380 94.6 L1400 90.8 L1420 87.1 L1440 83.5 L1460 80.1 L1480 77.2 L1500 74.9 L1520 73.2 L1540 72.2 L1560 72.0 L1580 72.6 L1600 74.0 L1620 76.1 L1640 78.7 L1660 81.9 L1680 85.4 L1700 89.2 L1720 92.9 L1740 96.5 L1760 99.9 L1780 102.8 L1800 105.1 L1820 106.8 L1840 107.8 L1860 108.0 L1880 107.4 L1900 106.0 L1920 103.9 L1940 101.3 L1960 98.1 L1980 94.6 L2000 90.8 L2020 87.1 L2040 83.5 L2060 80.1 L2080 77.2 L2100 74.9 L2120 73.2 L2140 72.2 L2160 72.0 L2180 72.6 L2200 74.0 L2220 76.1 L2240 78.7 L2260 81.9 L2280 85.4 L2300 89.2 L2320 92.9 L2340 96.5 L2360 99.9 L2380 102.8 L2400 105.1" fill="none" stroke="#818CF8" stroke-width="2" opacity="0.4" class="w" style="animation-duration:12s"/><path d="M0 90 L0 99.1 L20 98.0 L40 96.6 L60 94.9 L80 93.0 L100 90.9 L120 88.9 L140 86.8 L160 84.9 L180 83.2 L200 81.8 L220 80.8 L240 80.2 L260 80.0 L280 80.2 L300 80.9 L320 82.0 L340 83.4 L360 85.1 L380 87.0 L400 89.1 L420 91.1 L440 93.2 L460 95.1 L480 96.8 L500 98.2 L520 99.2 L540 99.8 L560 100.0 L580 99.8 L600 99.1 L620 98.0 L640 96.6 L660 94.9 L680 93.0 L700 90.9 L720 88.9 L740 86.8 L760 84.9 L780 83.2 L800 81.8 L820 80.8 L840 80.2 L860 80.0 L880 80.2 L900 80.9 L920 82.0 L940 83.4 L960 85.1 L980 87.0 L1000 89.1 L1020 91.1 L1040 93.2 L1060 95.1 L1080 96.8 L1100 98.2 L1120 99.2 L1140 99.8 L1160 100.0 L1180 99.8 L1200 99.1 L1220 98.0 L1240 96.6 L1260 94.9 L1280 93.0 L1300 90.9 L1320 88.9 L1340 86.8 L1360 84.9 L1380 83.2 L1400 81.8 L1420 80.8 L1440 80.2 L1460 80.0 L1480 80.2 L1500 80.9 L1520 82.0 L1540 83.4 L1560 85.1 L1580 87.0 L1600 89.1 L1620 91.1 L1640 93.2 L1660 95.1 L1680 96.8 L1700 98.2 L1720 99.2 L1740 99.8 L1760 100.0 L1780 99.8 L1800 99.1 L1820 98.0 L1840 96.6 L1860 94.9 L1880 93.0 L1900 90.9 L1920 88.9 L1940 86.8 L1960 84.9 L1980 83.2 L2000 81.8 L2020 80.8 L2040 80.2 L2060 80.0 L2080 80.2 L2100 80.9 L2120 82.0 L2140 83.4 L2160 85.1 L2180 87.0 L2200 89.1 L2220 91.1 L2240 93.2 L2260 95.1 L2280 96.8 L2300 98.2 L2320 99.2 L2340 99.8 L2360 100.0 L2380 99.8 L2400 99.1" fill="none" stroke="#A78BFA" stroke-width="2" opacity="0.5" class="w" style="animation-duration:7s"/>
+  <text x="600.0" y="52" class="sans" font-size="22" font-weight="700" fill="#F1F5F9" text-anchor="middle">Thanks for stopping by.</text>
+  <text x="600.0" y="134" class="mono" font-size="13" fill="#94A3B8" text-anchor="middle">data in · intelligence out · always learning</text>
+
+</g>
+<rect x="0.5" y="0.5" width="1199" height="149" rx="18" fill="none" stroke="#334155"/>
+</svg>

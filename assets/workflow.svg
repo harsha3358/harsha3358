@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="How I build: 1 Collect, 2 Clean, 3 Store (data engineering), 4 Model, 5 Ship (AI engineering), then monitor, evaluate and improve.">
+<title>How I build: 1 Collect, 2 Clean, 3 Store (data engineering), 4 Model, 5 Ship (AI engineering), then monitor, evaluate and improve.</title>
+<style>
+  .sans { font-family: 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'SF Mono', Menlo, monospace; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+  .lit { opacity: 0; animation: lit 4s ease-in-out infinite; }
+  @keyframes lit { 0%,100% { opacity: 0; } 15%,35% { opacity: 1; } 55% { opacity: 0; } }
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#060A13"/><stop offset="1" stop-color="#0B1222"/>
+  </linearGradient>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22D3EE"/><stop offset="0.5" stop-color="#818CF8"/><stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <linearGradient id="brandShift" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#22D3EE"/><stop offset="0.35" stop-color="#818CF8"/>
+    <stop offset="0.65" stop-color="#A78BFA"/><stop offset="1" stop-color="#22D3EE"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0; 0 0" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#1E293B" stroke-width="1" opacity="0.55"/>
+  </pattern>
+  <clipPath id="round"><rect width="1200" height="400" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#round)">
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+  
+  <text x="22" y="44" class="mono" font-size="13" letter-spacing="3" fill="#22D3EE">DATA ENGINEERING</text>
+  <path d="M22 58H698" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+  <text x="742" y="44" class="mono" font-size="13" letter-spacing="3" fill="#A78BFA">AI ENGINEERING</text>
+  <path d="M742 58H1178" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+  <text x="1178" y="44" class="sans" font-size="13" fill="#94A3B8" text-anchor="end">every project runs this loop</text><path d="M224 194.0H256" stroke="#334155" stroke-width="2"/><path d="M250 189.0l6 5l-6 5" fill="none" stroke="#334155" stroke-width="2"/><path d="M464 194.0H496" stroke="#334155" stroke-width="2"/><path d="M490 189.0l6 5l-6 5" fill="none" stroke="#334155" stroke-width="2"/><path d="M704 194.0H736" stroke="#334155" stroke-width="2"/><path d="M730 189.0l6 5l-6 5" fill="none" stroke="#334155" stroke-width="2"/><path d="M944 194.0H976" stroke="#334155" stroke-width="2"/><path d="M970 189.0l6 5l-6 5" fill="none" stroke="#334155" stroke-width="2"/><circle r="4.5" fill="#22D3EE"><animateMotion dur="5s" begin="0.0s" repeatCount="indefinite" path="M218 194.0H982"/></circle><circle r="4.5" fill="#38BDF8"><animateMotion dur="5s" begin="-1.25s" repeatCount="indefinite" path="M218 194.0H982"/></circle><circle r="4.5" fill="#818CF8"><animateMotion dur="5s" begin="-2.5s" repeatCount="indefinite" path="M218 194.0H982"/></circle><circle r="4.5" fill="#A78BFA"><animateMotion dur="5s" begin="-3.75s" repeatCount="indefinite" path="M218 194.0H982"/></circle>
+  <g>
+    <rect x="22" y="96" width="196" height="196" rx="14" fill="#0F172A" stroke="#334155"/>
+    <rect x="22" y="96" width="196" height="196" rx="14" fill="none" stroke="#22D3EE" stroke-width="2" class="lit" style="animation-delay:0.0s"/>
+    <rect x="22" y="96" width="196" height="4" rx="2" fill="#22D3EE"/>
+    <g transform="translate(42 120) scale(1.35)" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/><path d="M7 11l5 5l5-5"/><path d="M12 4v12"/></g>
+    <text x="198" y="138" class="mono" font-size="13" fill="#94A3B8" text-anchor="end">01</text>
+    <text x="42" y="182" class="sans" font-size="22" font-weight="700" fill="#F1F5F9">Collect</text>
+    <text x="42" y="202" class="sans" font-size="14" fill="#94A3B8">Pull data in</text>
+    <text x="42" y="224" class="mono" font-size="12.5" fill="#CBD5E1">APIs · RSS · scrapers</text><text x="42" y="246" class="mono" font-size="12.5" fill="#CBD5E1">Playwright · Puppeteer</text><text x="42" y="268" class="mono" font-size="12.5" fill="#CBD5E1">schedulers · cron</text>
+  </g>
+  <g>
+    <rect x="262" y="96" width="196" height="196" rx="14" fill="#0F172A" stroke="#334155"/>
+    <rect x="262" y="96" width="196" height="196" rx="14" fill="none" stroke="#38BDF8" stroke-width="2" class="lit" style="animation-delay:0.8s"/>
+    <rect x="262" y="96" width="196" height="4" rx="2" fill="#38BDF8"/>
+    <g transform="translate(282 120) scale(1.35)" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v2.17a2 2 0 0 1-.59 1.42L15 12v7l-6 2v-8.5L4.52 7.57A2 2 0 0 1 4 6.23z"/></g>
+    <text x="438" y="138" class="mono" font-size="13" fill="#94A3B8" text-anchor="end">02</text>
+    <text x="282" y="182" class="sans" font-size="22" font-weight="700" fill="#F1F5F9">Clean</text>
+    <text x="282" y="202" class="sans" font-size="14" fill="#94A3B8">Make it trustworthy</text>
+    <text x="282" y="224" class="mono" font-size="12.5" fill="#CBD5E1">Pandas · PySpark</text><text x="282" y="246" class="mono" font-size="12.5" fill="#CBD5E1">validation · dedupe</text><text x="282" y="268" class="mono" font-size="12.5" fill="#CBD5E1">ETL jobs</text>
+  </g>
+  <g>
+    <rect x="502" y="96" width="196" height="196" rx="14" fill="#0F172A" stroke="#334155"/>
+    <rect x="502" y="96" width="196" height="196" rx="14" fill="none" stroke="#818CF8" stroke-width="2" class="lit" style="animation-delay:1.6s"/>
+    <rect x="502" y="96" width="196" height="4" rx="2" fill="#818CF8"/>
+    <g transform="translate(522 120) scale(1.35)" fill="none" stroke="#818CF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6a8 3 0 0 0 16 0V6"/><path d="M4 12v6a8 3 0 0 0 16 0v-6"/></g>
+    <text x="678" y="138" class="mono" font-size="13" fill="#94A3B8" text-anchor="end">03</text>
+    <text x="522" y="182" class="sans" font-size="22" font-weight="700" fill="#F1F5F9">Store</text>
+    <text x="522" y="202" class="sans" font-size="14" fill="#94A3B8">Keep it findable</text>
+    <text x="522" y="224" class="mono" font-size="12.5" fill="#CBD5E1">PostgreSQL · pgvector</text><text x="522" y="246" class="mono" font-size="12.5" fill="#CBD5E1">SQLite · Supabase</text><text x="522" y="268" class="mono" font-size="12.5" fill="#CBD5E1">MongoDB · MySQL</text>
+  </g>
+  <g>
+    <rect x="742" y="96" width="196" height="196" rx="14" fill="#0F172A" stroke="#334155"/>
+    <rect x="742" y="96" width="196" height="196" rx="14" fill="none" stroke="#A78BFA" stroke-width="2" class="lit" style="animation-delay:2.4s"/>
+    <rect x="742" y="96" width="196" height="4" rx="2" fill="#A78BFA"/>
+    <g transform="translate(762 120) scale(1.35)" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/><path d="M3 10h2M3 14h2M10 3v2M14 3v2M21 10h-2M21 14h-2M14 21v-2M10 21v-2"/></g>
+    <text x="918" y="138" class="mono" font-size="13" fill="#94A3B8" text-anchor="end">04</text>
+    <text x="762" y="182" class="sans" font-size="22" font-weight="700" fill="#F1F5F9">Model</text>
+    <text x="762" y="202" class="sans" font-size="14" fill="#94A3B8">Make it smart</text>
+    <text x="762" y="224" class="mono" font-size="12.5" fill="#CBD5E1">LLMs · RAG · agents</text><text x="762" y="246" class="mono" font-size="12.5" fill="#CBD5E1">BERT · LSTM · CNN</text><text x="762" y="268" class="mono" font-size="12.5" fill="#CBD5E1">scikit-learn · XGBoost</text>
+  </g>
+  <g>
+    <rect x="982" y="96" width="196" height="196" rx="14" fill="#0F172A" stroke="#334155"/>
+    <rect x="982" y="96" width="196" height="196" rx="14" fill="none" stroke="#34D399" stroke-width="2" class="lit" style="animation-delay:3.2s"/>
+    <rect x="982" y="96" width="196" height="4" rx="2" fill="#34D399"/>
+    <g transform="translate(1002 120) scale(1.35)" fill="none" stroke="#34D399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3-5a9 9 0 0 0 6-8a3 3 0 0 0-3-3a9 9 0 0 0-8 6a6 6 0 0 0-5 3"/><path d="M7 14a6 6 0 0 0-3 6a6 6 0 0 0 6-3"/><circle cx="15" cy="9" r="1"/></g>
+    <text x="1158" y="138" class="mono" font-size="13" fill="#94A3B8" text-anchor="end">05</text>
+    <text x="1002" y="182" class="sans" font-size="22" font-weight="700" fill="#F1F5F9">Ship</text>
+    <text x="1002" y="202" class="sans" font-size="14" fill="#94A3B8">Put it to work</text>
+    <text x="1002" y="224" class="mono" font-size="12.5" fill="#CBD5E1">FastAPI · Docker</text><text x="1002" y="246" class="mono" font-size="12.5" fill="#CBD5E1">AWS · Vercel</text><text x="1002" y="268" class="mono" font-size="12.5" fill="#CBD5E1">GitHub Actions</text>
+  </g>
+  <path d="M1080.0 298V330H120.0V298" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="4 6"/>
+  <path d="M115.0 306l5-6l5 6" fill="none" stroke="#334155" stroke-width="2"/>
+  <circle r="4" fill="#34D399"><animateMotion dur="6s" repeatCount="indefinite" path="M1080.0 298V330H120.0V298"/></circle>
+  <rect x="450.0" y="318" width="300" height="26" rx="13" fill="#0B1222" stroke="#334155"/>
+  <text x="600.0" y="336" class="mono" font-size="12.5" fill="#CBD5E1" text-anchor="middle">monitor · evaluate · improve</text>
+</g>
+<rect x="0.5" y="0.5" width="1199" height="399" rx="18" fill="none" stroke="#334155"/>
+</svg>

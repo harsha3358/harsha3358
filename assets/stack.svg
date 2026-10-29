@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Skills: Ai &amp; Machine Learning: LLMs · prompt design, RAG · vector search, AI agents · tool calling, BERT · LSTM · CNN, scikit-learn · XGBoost; Generative &amp; Local Ai: Claude · Gemini · Ollama, Hugging Face · Diffusers, LangChain · LlamaIndex, Whisper · TTS, FLUX · Stable Diffusion; Data Engineering: Python · SQL, Pandas · PySpark, Kafka · ETL pipelines, PostgreSQL · pgvector, Power BI · dashboards; Backend &amp; Cloud: FastAPI · Flask, Celery · Redis, Docker, AWS (EC2 · Lambda · S3), GitHub Actions · Vercel">
+<title>Skills: Ai &amp; Machine Learning: LLMs · prompt design, RAG · vector search, AI agents · tool calling, BERT · LSTM · CNN, scikit-learn · XGBoost; Generative &amp; Local Ai: Claude · Gemini · Ollama, Hugging Face · Diffusers, LangChain · LlamaIndex, Whisper · TTS, FLUX · Stable Diffusion; Data Engineering: Python · SQL, Pandas · PySpark, Kafka · ETL pipelines, PostgreSQL · pgvector, Power BI · dashboards; Backend &amp; Cloud: FastAPI · Flask, Celery · Redis, Docker, AWS (EC2 · Lambda · S3), GitHub Actions · Vercel</title>
+<style>
+  .sans { font-family: 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'SF Mono', Menlo, monospace; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+  .b { animation: b 3s ease-in-out infinite; }
+  @keyframes b { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#060A13"/><stop offset="1" stop-color="#0B1222"/>
+  </linearGradient>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22D3EE"/><stop offset="0.5" stop-color="#818CF8"/><stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <linearGradient id="brandShift" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#22D3EE"/><stop offset="0.35" stop-color="#818CF8"/>
+    <stop offset="0.65" stop-color="#A78BFA"/><stop offset="1" stop-color="#22D3EE"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0; 0 0" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#1E293B" stroke-width="1" opacity="0.55"/>
+  </pattern>
+  <clipPath id="round"><rect width="1200" height="300" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#round)">
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  
+  <rect x="24" y="24" width="276" height="252" rx="14" fill="#0F172A" stroke="#334155"/>
+  <rect x="24" y="24" width="276" height="4" rx="2" fill="#A78BFA"/>
+  <text x="44" y="62" class="mono" font-size="12.5" font-weight="700" letter-spacing="2" fill="#A78BFA">AI &amp; MACHINE LEARNING</text>
+  <circle cx="50" cy="98" r="3.5" fill="#A78BFA" class="b" style="animation-delay:0.00s"/><text x="64" y="103" class="sans" font-size="15.5" fill="#CBD5E1">LLMs · prompt design</text><circle cx="50" cy="134" r="3.5" fill="#A78BFA" class="b" style="animation-delay:0.15s"/><text x="64" y="139" class="sans" font-size="15.5" fill="#CBD5E1">RAG · vector search</text><circle cx="50" cy="170" r="3.5" fill="#A78BFA" class="b" style="animation-delay:0.30s"/><text x="64" y="175" class="sans" font-size="15.5" fill="#CBD5E1">AI agents · tool calling</text><circle cx="50" cy="206" r="3.5" fill="#A78BFA" class="b" style="animation-delay:0.45s"/><text x="64" y="211" class="sans" font-size="15.5" fill="#CBD5E1">BERT · LSTM · CNN</text><circle cx="50" cy="242" r="3.5" fill="#A78BFA" class="b" style="animation-delay:0.60s"/><text x="64" y="247" class="sans" font-size="15.5" fill="#CBD5E1">scikit-learn · XGBoost</text>
+  <rect x="318" y="24" width="276" height="252" rx="14" fill="#0F172A" stroke="#334155"/>
+  <rect x="318" y="24" width="276" height="4" rx="2" fill="#C084FC"/>
+  <text x="338" y="62" class="mono" font-size="12.5" font-weight="700" letter-spacing="2" fill="#C084FC">GENERATIVE &amp; LOCAL AI</text>
+  <circle cx="344" cy="98" r="3.5" fill="#C084FC" class="b" style="animation-delay:0.75s"/><text x="358" y="103" class="sans" font-size="15.5" fill="#CBD5E1">Claude · Gemini · Ollama</text><circle cx="344" cy="134" r="3.5" fill="#C084FC" class="b" style="animation-delay:0.90s"/><text x="358" y="139" class="sans" font-size="15.5" fill="#CBD5E1">Hugging Face · Diffusers</text><circle cx="344" cy="170" r="3.5" fill="#C084FC" class="b" style="animation-delay:1.05s"/><text x="358" y="175" class="sans" font-size="15.5" fill="#CBD5E1">LangChain · LlamaIndex</text><circle cx="344" cy="206" r="3.5" fill="#C084FC" class="b" style="animation-delay:1.20s"/><text x="358" y="211" class="sans" font-size="15.5" fill="#CBD5E1">Whisper · TTS</text><circle cx="344" cy="242" r="3.5" fill="#C084FC" class="b" style="animation-delay:1.35s"/><text x="358" y="247" class="sans" font-size="15.5" fill="#CBD5E1">FLUX · Stable Diffusion</text>
+  <rect x="612" y="24" width="276" height="252" rx="14" fill="#0F172A" stroke="#334155"/>
+  <rect x="612" y="24" width="276" height="4" rx="2" fill="#22D3EE"/>
+  <text x="632" y="62" class="mono" font-size="12.5" font-weight="700" letter-spacing="2" fill="#22D3EE">DATA ENGINEERING</text>
+  <circle cx="638" cy="98" r="3.5" fill="#22D3EE" class="b" style="animation-delay:1.50s"/><text x="652" y="103" class="sans" font-size="15.5" fill="#CBD5E1">Python · SQL</text><circle cx="638" cy="134" r="3.5" fill="#22D3EE" class="b" style="animation-delay:1.65s"/><text x="652" y="139" class="sans" font-size="15.5" fill="#CBD5E1">Pandas · PySpark</text><circle cx="638" cy="170" r="3.5" fill="#22D3EE" class="b" style="animation-delay:1.80s"/><text x="652" y="175" class="sans" font-size="15.5" fill="#CBD5E1">Kafka · ETL pipelines</text><circle cx="638" cy="206" r="3.5" fill="#22D3EE" class="b" style="animation-delay:1.95s"/><text x="652" y="211" class="sans" font-size="15.5" fill="#CBD5E1">PostgreSQL · pgvector</text><circle cx="638" cy="242" r="3.5" fill="#22D3EE" class="b" style="animation-delay:2.10s"/><text x="652" y="247" class="sans" font-size="15.5" fill="#CBD5E1">Power BI · dashboards</text>
+  <rect x="906" y="24" width="276" height="252" rx="14" fill="#0F172A" stroke="#334155"/>
+  <rect x="906" y="24" width="276" height="4" rx="2" fill="#34D399"/>
+  <text x="926" y="62" class="mono" font-size="12.5" font-weight="700" letter-spacing="2" fill="#34D399">BACKEND &amp; CLOUD</text>
+  <circle cx="932" cy="98" r="3.5" fill="#34D399" class="b" style="animation-delay:2.25s"/><text x="946" y="103" class="sans" font-size="15.5" fill="#CBD5E1">FastAPI · Flask</text><circle cx="932" cy="134" r="3.5" fill="#34D399" class="b" style="animation-delay:2.40s"/><text x="946" y="139" class="sans" font-size="15.5" fill="#CBD5E1">Celery · Redis</text><circle cx="932" cy="170" r="3.5" fill="#34D399" class="b" style="animation-delay:2.55s"/><text x="946" y="175" class="sans" font-size="15.5" fill="#CBD5E1">Docker</text><circle cx="932" cy="206" r="3.5" fill="#34D399" class="b" style="animation-delay:2.70s"/><text x="946" y="211" class="sans" font-size="15.5" fill="#CBD5E1">AWS (EC2 · Lambda · S3)</text><circle cx="932" cy="242" r="3.5" fill="#34D399" class="b" style="animation-delay:2.85s"/><text x="946" y="247" class="sans" font-size="15.5" fill="#CBD5E1">GitHub Actions · Vercel</text>
+</g>
+<rect x="0.5" y="0.5" width="1199" height="299" rx="18" fill="none" stroke="#334155"/>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="250" viewBox="0 0 580 250" role="img" aria-label="Social Autopilot: Writes, fact-checks and posts one LinkedIn and X post a day. 8 quality gates before it posts. Built with Claude, FLUX.2, Real-ESRGAN, Chromium.">
+<title>Social Autopilot: Writes, fact-checks and posts one LinkedIn and X post a day. 8 quality gates before it posts. Built with Claude, FLUX.2, Real-ESRGAN, Chromium.</title>
+<style>
+  .sans { font-family: 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'SF Mono', Menlo, monospace; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+  .sweep { animation: sweep 4s ease-in-out infinite; }
+  @keyframes sweep { 0% { transform: translateX(-200px); } 60%,100% { transform: translateX(780px); } }
+  .live { animation: blink 1.8s ease-in-out infinite; }
+  @keyframes blink { 50% { opacity: .3; } }
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#060A13"/><stop offset="1" stop-color="#0B1222"/>
+  </linearGradient>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22D3EE"/><stop offset="0.5" stop-color="#818CF8"/><stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <linearGradient id="brandShift" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+    <stop offset="0" stop-color="#22D3EE"/><stop offset="0.35" stop-color="#818CF8"/>
+    <stop offset="0.65" stop-color="#A78BFA"/><stop offset="1" stop-color="#22D3EE"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0; 0 0" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#1E293B" stroke-width="1" opacity="0.55"/>
+  </pattern>
+  <clipPath id="round"><rect width="580" height="250" rx="18"/></clipPath>
+
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#22D3EE"/>
+  </linearGradient></defs>
+<g clip-path="url(#round)">
+  <rect width="580" height="250" fill="url(#bg)"/>
+  <rect width="580" height="250" fill="url(#grid)"/>
+  
+  <rect width="580" height="4" fill="url(#accent)"/>
+  <rect x="0" y="0" width="160" height="4" fill="url(#shine)" class="sweep" opacity=".8"/>
+  <rect x="28" y="30" width="133" height="26" rx="6" fill="#A78BFA" fill-opacity=".14" stroke="#A78BFA" stroke-opacity=".5"/>
+  <text x="40" y="48" class="mono" font-size="12" letter-spacing="1.5" font-weight="700" fill="#A78BFA">AI AUTOMATION</text>
+  <rect x="427" y="30" width="125" height="26" rx="13" fill="#FBBF24" fill-opacity=".12" stroke="#FBBF24" stroke-opacity=".5"/>
+  <circle cx="442" cy="43" r="4" fill="#FBBF24" class="live"/>
+  <text x="452" y="47.5" class="mono" font-size="12" fill="#FBBF24">Private repo</text>
+  <text x="28" y="94" class="sans" font-size="26" font-weight="700" fill="#F1F5F9">Social Autopilot</text>
+  <text x="28" y="124" class="sans" font-size="16" fill="#CBD5E1">Writes, fact-checks and posts one LinkedIn and</text><text x="28" y="148" class="sans" font-size="16" fill="#CBD5E1">X post a day. 8 quality gates before it posts.</text>
+  <rect x="28" y="196" width="66" height="28" rx="14" fill="#0B1222" stroke="#334155"/><text x="61" y="215" class="mono" font-size="12" fill="#CBD5E1" text-anchor="middle">Claude</text><rect x="102.4" y="196" width="66" height="28" rx="14" fill="#0B1222" stroke="#334155"/><text x="136" y="215" class="mono" font-size="12" fill="#CBD5E1" text-anchor="middle">FLUX.2</text><rect x="176.8" y="196" width="103" height="28" rx="14" fill="#0B1222" stroke="#334155"/><text x="228" y="215" class="mono" font-size="12" fill="#CBD5E1" text-anchor="middle">Real-ESRGAN</text><rect x="288.20000000000005" y="196" width="81" height="28" rx="14" fill="#0B1222" stroke="#334155"/><text x="329" y="215" class="mono" font-size="12" fill="#CBD5E1" text-anchor="middle">Chromium</text>
+
+</g>
+<rect x="0.5" y="0.5" width="579" height="249" rx="18" fill="none" stroke="#334155"/>
+</svg>
