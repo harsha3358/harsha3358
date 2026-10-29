@@ -1,5 +1,5 @@
 <a href="https://harsha-reddy.vercel.app/">
-  <img src="assets/hero.svg" alt="Harshavardhan Reddy, AI Engineer and Data Engineer. I build data pipelines and AI systems that run on their own." width="100%">
+  <img src="assets/hero.svg" alt="Harshavardhan Reddy, AI Engineer at Yukty AI and Data Engineer. I build data pipelines and AI systems that run on their own." width="100%">
 </a>
 
 <p align="center">
@@ -15,20 +15,32 @@
   <img src="assets/h-about-light.svg" alt="01 About me" width="100%">
 </picture>
 
-I'm an **AI and data engineer** from Kadapa, India. I take messy, raw data, make it clean and reliable, and turn it into AI tools that do real work on their own: posting content, answering questions from documents, sorting news, grading answers.
+<h3 align="center">I don't just train models. I build the pipes that feed them<br>and the systems that keep them running.</h3>
 
-**Right now I'm:**
+<img src="assets/about.svg" alt="About Harshavardhan Reddy, AI Engineer at Yukty AI, presented as an AI model card: boot log, capability radar, running projects, learning curve and benchmarks." width="100%">
 
-- Building **[Truxlo](https://truxlo.com)**, an AI logistics platform that plans truck routes and forecasts demand
-- Running **AI agents that publish content every day**, with fact-checks and quality gates before anything goes out
-- Running **AI models on my own machine** (Ollama, Whisper), so private data never leaves it
-- Studying **B.Tech in Computer Science (AI & Data Engineering)** at Lovely Professional University
+<details>
+<summary><b>Read the model card as plain text</b></summary>
+<br>
 
-| When | What |
-| :-- | :-- |
-| **2025** · Jun to Aug | **AI & Data Engineering Intern, Futurense Technologies.** Built data pipelines and automations that made processing 30% faster, plus dashboards for real-time numbers. |
-| **2023** to now | **B.Tech CSE (AI & Data Engineering), Lovely Professional University** |
-| **Certified** | Microsoft Azure Data Fundamentals · Supervised Machine Learning (Coursera) · Generative AI and LLMs |
+**Who:** Harshavardhan Reddy, AI Engineer at [Yukty AI](https://yukty.com/), from Kadapa, Andhra Pradesh, India.
+
+**Working at:** Yukty AI as an AI Engineer, building AI agents, automation and data pipelines.
+
+**Trained on:** B.Tech in Computer Science (AI & Data Engineering) at Lovely Professional University, 2023 to now. AI & Data Engineering intern at Futurense Technologies, June to August 2025. Certified in Microsoft Azure Data Fundamentals, Supervised Machine Learning (Coursera) and Generative AI with LLMs.
+
+**What I do:** take messy, raw data, make it clean and reliable, and turn it into AI that does real work without anyone pushing buttons.
+
+**Running now:**
+1. **Truxlo:** an AI logistics platform that plans truck routes and forecasts demand
+2. **Social autopilot:** writes, fact-checks and posts one LinkedIn and X post a day
+3. **JARVIS (MARK XL):** a voice assistant that runs fully on my own computer
+4. **AURA:** a personal AI that remembers decisions and why they were made
+5. **Learning:** generative AI, every day
+
+**Results so far:** 30% faster data processing at Futurense · 0.41 ROUGE-L on medical report summaries · 8 quality gates before any automated post goes out · 25+ AI news feeds read every week · 0 cloud calls for JARVIS · 40% better fleet tracking in Truxlo.
+
+</details>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-workflow.svg">
@@ -98,7 +110,7 @@ The first three steps are **data engineering**: getting data in and making it tr
   <img src="assets/h-contact-light.svg" alt="06 Let's talk" width="100%">
 </picture>
 
-I'm open to **AI engineering and data engineering roles**, freelance projects and collaborations. The fastest way to reach me is email or LinkedIn.
+I'm an **AI Engineer at [Yukty AI](https://yukty.com/)**. Want to build something with AI or data? I'm up for collaborations, side projects and good conversations. Email or LinkedIn reaches me fastest.
 
 <p align="center">
   <a href="mailto:harshavardhan414212@gmail.com"><img src="https://img.shields.io/badge/harshavardhan414212@gmail.com-0B1222?style=for-the-badge&logo=gmail&logoColor=A78BFA" alt="Email me"></a>

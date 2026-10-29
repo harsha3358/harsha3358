@@ -155,7 +155,7 @@ def hero():
   <circle cx="140" cy="40" r="260" fill="url(#orbC)" class="glow"/>
   <circle cx="1040" cy="300" r="300" fill="url(#orbV)" class="glow" style="animation-delay:-2.5s"/>
   <g class="rise">
-    <text x="64" y="92" class="mono" font-size="15" letter-spacing="3" fill="{CYAN}">AI ENGINEER <tspan fill="{MUTED}">·</tspan> <tspan fill="{VIOLET}">DATA ENGINEER</tspan></text>
+    <text x="64" y="92" class="mono" font-size="15" letter-spacing="3" fill="{CYAN}">AI ENGINEER @ YUKTY AI <tspan fill="{MUTED}">·</tspan> <tspan fill="{VIOLET}">DATA ENGINEER</tspan></text>
     <text x="62" y="156" class="sans" font-size="54" font-weight="800" fill="url(#brandShift)">Harshavardhan Reddy</text>
   </g>
   <g clip-path="url(#typeClip)">
@@ -178,7 +178,7 @@ def hero():
 """
     (OUT / "hero.svg").write_text(
         svg(W, H, frame(W, H, inner), css, defs,
-            "Harshavardhan Reddy, AI Engineer and Data Engineer. I build data pipelines and AI systems that run on their own."),
+            "Harshavardhan Reddy, AI Engineer at Yukty AI and Data Engineer. I build data pipelines and AI systems that run on their own."),
         encoding="utf-8")
 
 
@@ -465,12 +465,12 @@ if __name__ == "__main__":
     footer()
     icon_wall()
     for args in [
-        ("about", "01", "About me", "Who I am and what I'm working on right now"),
+        ("about", "01", "About me", "Read me like an AI model card: what I was trained on, what I run, how I score"),
         ("workflow", "02", "How I build", "The same five steps behind every project"),
         ("projects", "03", "What I've built", "Public and private work, newest first"),
         ("stack", "04", "Tools I use", "Grouped by the job they do"),
         ("stats", "05", "Activity", "Live numbers from GitHub"),
-        ("contact", "06", "Let's talk", "Open to AI and data engineering roles and projects"),
+        ("contact", "06", "Let's talk", "Collaborations, side projects and good conversations"),
     ]:
         header(*args)
         header(*args, light=True)
