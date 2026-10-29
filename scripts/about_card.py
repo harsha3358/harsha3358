@@ -43,10 +43,8 @@ def identity():
             f'stroke="url(#brandRadar)" stroke-width="3" stroke-linecap="round" stroke-dasharray="70 40 20 40"/></g>')
     if PHOTO.exists():
         data = base64.b64encode(PHOTO.read_bytes()).decode()
-        # portrait crop: face sits about 43% down the frame
-        iw = r * 2.7
-        body += (f'<image href="data:image/jpeg;base64,{data}" x="{cx - iw/2:.1f}" y="{cy - iw*1.27*0.43:.1f}" '
-                 f'width="{iw:.1f}" height="{iw*1.27:.1f}" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatar)"/>')
+        body += (f'<image href="data:image/jpeg;base64,{data}" x="{cx - r}" y="{cy - r}" width="{2*r}" height="{2*r}" '
+                 f'preserveAspectRatio="xMidYMid slice" clip-path="url(#avatar)"/>')
     else:
         body += (f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="url(#brandRadar)" opacity=".9"/>'
                  f'<text x="{cx}" y="{cy+11}" class="sans" font-size="32" font-weight="800" fill="{BG1}" text-anchor="middle">HR</text>')
